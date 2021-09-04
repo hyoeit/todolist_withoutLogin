@@ -1,0 +1,30 @@
+.list {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 40px;
+  border-bottom: 1px solid grey;
+}
+
+.text {
+  flex: 4;
+  position: relative;
+}
+
+.star,
+.check,
+.plus {
+  display: inline-block;
+  flex: 0.4;
+  background: none;
+  border: none;
+  text-align: center;
+  font-size: 1.1em;
+  height: 3em;
+  line-height: 3em;
+}
+
+.check {
+  display: flex;
+  align-items: center;
+}

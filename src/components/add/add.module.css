@@ -1,0 +1,26 @@
+.contaienr {
+  display: flex;
+  justify-content: center;
+}
+
+.text {
+  width: 92%;
+  height: 3rem;
+  border-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.btn {
+  width: 8%;
+  height: 3rem;
+  border-style: none;
+  transition: transform 100 ease-in;
+  padding-bottom: 3px;
+  background-color: rgb(234, 234, 234);
+}
+
+.btn:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+}

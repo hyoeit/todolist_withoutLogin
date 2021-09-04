@@ -1,0 +1,32 @@
+.header {
+  margin-top: 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.ulbox {
+  margin-top: 5rem;
+  list-style: none;
+  padding-left: 0;
+}
+
+.google {
+  text-align: center;
+  font-size: 1em;
+  width: 15em;
+  height: 3em;
+  border: none;
+}
+
+.text {
+  text-align: center;
+  color: rgba(235, 234, 228, 0.886);
+}
+
+.container {
+  background: rgb(149, 133, 133);
+  height: 100vh;
+}

@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 4em;
+}
+
+.date {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.day,
+.month {
+  margin-left: 1rem;
+}
+
+.logout {
+  border-style: none;
+}
