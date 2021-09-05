@@ -5,7 +5,7 @@ import Header from './components/header/header';
 import List from './components/list/list';
 
 
-function App({authService}) {
+function App() {
   
   const [todos, setTodos] = useState(
     []
@@ -34,7 +34,7 @@ function App({authService}) {
   return (
     <div className="App">
       <div className="container">      
-        <Header authService={authService}/>
+        <Header />
         <Add textAdd={textAdd}/>
         <List todos={todos} textDelete={textDelete} onCheck={onCheck} onStar={onStar} /> 
       </div>

@@ -2,7 +2,7 @@ import React, {useEffect} from 'react'
 import { useHistory } from 'react-router-dom';
 import styles from './header.module.css'
 
-const Header = ({authService}) => {
+const Header = () => {
   
   const date = new Date();
   const year = date.getFullYear();
@@ -11,9 +11,9 @@ const Header = ({authService}) => {
   const monthNames = ["JAN", "FAB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"];
   const monthName = monthNames[month]
 
-  const onLogout = () => {
-    authService.logout();
-  }
+  // const onLogout = () => {
+  //   authService.logout();
+  // }
 
   // const history = useHistory();
 
@@ -35,7 +35,6 @@ const Header = ({authService}) => {
     <div>
       <h1>Better than yesterday</h1>
     </div>
-    <button className={styles.logout} onClick={onLogout}>logout</button>
   </section>  
   )
 }
